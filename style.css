@@ -20,12 +20,6 @@ html {
       height: 100vh;
       background-color: grey;
     }
-/* images and videos max out at full width */
-img,
-video {
-  height: auto;
-  max-width: 100%;
-}
 
 .intro {
   color: rgb(11,182,244);
@@ -55,5 +49,5 @@ video {
 .codeimg {
   display: flex;
   flex-direction: row;
-  height: 100px;
+  width: 250px;
 }
