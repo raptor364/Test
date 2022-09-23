@@ -6,48 +6,52 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 /* adjust typography defaults */
- body {
-      display: flex;
-      flex-direction: row;
-      align-items: top;
-      justify-content: center;
-      margin: 0 auto;
-      height: 100vh;
-      background-color: grey;
-    }
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: center;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: grey;
+}
 
 .intro {
-  color: rgb(11,182,244);
+  color: rgb(11, 182, 244);
   background: lightgrey;
   padding: 10px;
   border-radius: 10px;
 }
 .div1 {
-   display: flex;
+  display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
   justify-content: top;
   align-items: center;
-    }
+  margin: 25px;
+}
 
 .div2 {
-   display: flex;
+  display: flex;
   flex-direction: row;
   height: 30%;
   width: 100%;
   justify-content: top;
   align-items: top;
-  background-color: rgb(98,123,157);
-    }
+  background-color: rgb(98, 123, 157);
+}
 
 .codeimg {
   display: flex;
   flex-direction: row;
-  width: 250px;
+  padding: 5px;
+  border-radius: 25px;
 }
