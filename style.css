@@ -11,11 +11,14 @@ html {
 }
 
 /* adjust typography defaults */
-body {
-  margin: 1rem;
-  font-family: sans-serif;
-  line-height: 1.5;
-}
+ body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      height: 100vh;
+      background-color: #f1f1f1;
+    }
 
 /* images and videos max out at full width */
 img,
@@ -24,10 +27,22 @@ video {
   max-width: 100%;
 }
 
-a {
-  color: lightblue;
-}
-h1 {
-  color: lightblue;
+.intro {
+  color: rgb(11,182,244);
   background: lightgrey;
+  padding: 10px;
 }
+
+ body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      height: 100vh;
+      background-color: #f1f1f1;
+    }
+.div1 {
+      background-color: #2ecc71;
+      width: 200px;
+      height: 200px;
+    }
